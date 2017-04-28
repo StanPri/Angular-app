@@ -27,9 +27,9 @@ import { Component, Input, Output, EventEmitter} from '@angular/core';
 
 export class EventThumbnailComponent {
     @Input() event:any
-    @Output() itemClick = new EventEmitter();
+    @Output() eventClick = new EventEmitter();
 
     handleClick(){
-        this.itemClick.emit(this.event.name)
+        this.eventClick.emit(this.event.name)
     }
 }
