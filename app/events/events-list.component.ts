@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
     selector: 'events-list',
     template: `
       <div>
-        <h1>Angular 2 Events</h1>
+        <h1>Angular 2 Components</h1>
         <hr/>
         <div class="row">
           <div *ngFor="let event of events" class="col-md-5">

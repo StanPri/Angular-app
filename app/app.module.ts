@@ -6,7 +6,8 @@ import { EventsListComponent } from './events/events-list.component';
 import { EventsAppComponent } from './events-app.component';
 import {NgModule} from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser';
-import {EventService} from './events/shared/event.service';
+import { EventService } from './events/shared/event.service';
+import { SideBarComponent } from "./sidebar/sidebar.component";
 @NgModule({
     imports: [BrowserModule],
     declarations: [
@@ -14,7 +15,8 @@ import {EventService} from './events/shared/event.service';
         EventsListComponent,
         EventThumbnailComponent,
         EventAddressComponent,
-        NavBarComponent
+        NavBarComponent,
+        SideBarComponent
     ],
     providers: [EventService, ToastrService],
     bootstrap: [EventsAppComponent]
