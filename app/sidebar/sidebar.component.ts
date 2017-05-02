@@ -3,8 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'sidebar',
-    templateUrl: 'app/sidebar/sidebar.component.html',
-    stylesUrl: 'app/sidebar/sidebar.component.css'
+    templateUrl: 'app/sidebar/sidebar.component.html'
 })
 
 export class SideBarComponent {
