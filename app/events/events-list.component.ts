@@ -4,7 +4,6 @@ import { Component, OnInit } from '@angular/core';
 
 
 @Component({
-    selector: 'events-list',
     template: `
       <div>
         <h1>Angular 2 Events</h1>
